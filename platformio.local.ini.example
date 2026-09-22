@@ -1,0 +1,6 @@
+; Copy this file to platformio.local.ini and fill in the port names for
+; this machine. platformio.local.ini is gitignored.
+
+[env:heltec_wifi_lora_32_V4]
+upload_port = /dev/cu.usbmodem11401
+monitor_port = /dev/cu.usbmodem11401
