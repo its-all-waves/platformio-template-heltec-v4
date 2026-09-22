@@ -2,3 +2,4 @@
 .cache
 compile_commands.json
 platformio.local.ini
+*secrets*
