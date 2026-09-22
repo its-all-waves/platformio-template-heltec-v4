@@ -1,0 +1,5 @@
+# Lets clangd ask PlatformIO's xtensa-esp32s3-elf-g++ for its built-in include
+# paths and supported flags.
+[language-server.clangd]
+command = "clangd"
+args = ["--query-driver=/Users/ian/.platformio/packages/**/bin/*"]
